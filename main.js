@@ -116,6 +116,6 @@ function total(){
         cant += +amount;
         mont += (amount*price);
         navbarNum.innerHTML= `<p class="navbar_num">${cant}</p>`;
-        monto.innerHTML= `<span id="total">${mont}</span>`
+        monto.innerHTML= `<span id="total">$${mont}</span>`
     });
 }

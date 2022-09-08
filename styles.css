@@ -150,12 +150,21 @@ a{
     transform: scale(1.5);
 }
 .car_item{
-    background-color: aqua;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 15px;
     margin: auto;
     width: 150px;
+    border: 2px var(--red) solid;
+}
+.car_item h5{
+    text-align: center;
+    margin-bottom: 10px;
 }
 .car_item img{
     width: 100%;
+    background-color: var(--white);
+    border-radius: 15px 15px 0 0;
 }
 .car_item_tittle{
     text-align: center;
