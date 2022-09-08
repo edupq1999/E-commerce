@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&display=swap');
 :root{
     --red: #570505;
     --red2: #f70e0e;
@@ -8,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    font-family: 'Noto Serif Georgian';
 }
 a{
     text-decoration: none;
@@ -102,7 +104,7 @@ a{
     margin: 10px 0;
 }
 .shop_article_info{
-    height: 40px;
+    height: 70px;
 }
 .shop_article_info,
 .shop_article_btn{
