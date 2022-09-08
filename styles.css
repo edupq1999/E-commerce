@@ -18,7 +18,11 @@ a{
     display: flex;
     align-items: center;
 }
-
+.navbar img{
+    background-color: var(--white);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
 .navbar{
     position: fixed;
     width: 100%;
@@ -201,4 +205,10 @@ footer{
 footer h1{
     color: var(--white);
     text-align: center;
+}
+footer img{
+    width: 40px;
+    margin: 0 10px;
+    background-color: var(--white);
+    border-radius: 15px;
 }
